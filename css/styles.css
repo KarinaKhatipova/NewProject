@@ -1,13 +1,14 @@
 body {
   font-family: system-ui;
-  background: #f06d06;
+  background: #e8b48b;
   color: #ffffff;
   border:dashed 1px #ffffff;
 /*   text-align: center; */
 }
 
 header{
-   border:dashed 1px #ffffff;
+  padding: 40px 0;
+  border:dashed 1px #ffffff;
   display:flex;
   justify-content:space-between;//расстояние между блоками
 }
@@ -24,8 +25,17 @@ header{
 }
 .logo{
   margin: 0;
-  padding: 40px 0;
-
+  /* padding: 40px 0; */
+  width: 120px;
+  height: 120px;
+  border: dashed 1px red;
+  /* background: red; */
+  background:url('../img/logo1.png');
+  /* font:bold 24px/31px pt_serif; */
+  /* font-family:pt_serif;
+  font-weight:bold;
+  font-size: 24px;
+  line-height:31px; */
 }
 .menu{
   display:flex;
