@@ -1,0 +1,41 @@
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: #ffffff;
+  border:dashed 1px #ffffff;
+/*   text-align: center; */
+}
+
+header{
+   border:dashed 1px #ffffff;
+  display:flex;
+  justify-content:space-between;//расстояние между блоками
+}
+.main-content{
+   border:dashed 1px #ffffff;
+}
+.wrapper{
+  margin: auto;
+  width:80%;
+}
+.logo,.menu{
+  display: inline-block;
+  border:dashed 1px #ffffff;
+}
+.logo{
+  margin: 0;
+  padding: 40px 0;
+
+}
+.menu{
+  display:flex;
+  align-items: center;
+  padding: 40px 0;
+}
+.menu__item{
+  border:dashed 1px #ffffff;
+  padding: 0 20px;
+}
+.menu__item:last-child{
+  padding-right:0;
+}
